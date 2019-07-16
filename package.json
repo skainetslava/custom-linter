@@ -1,0 +1,17 @@
+{
+  "name": "linter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "linter.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.35.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.6"
+  }
+}
