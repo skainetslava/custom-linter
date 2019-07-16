@@ -2,6 +2,7 @@ import { errors, standart } from '../linter';
 import { typeErrors } from '../typeErrors';
 import { findContent, checkDifferentSize } from '../helpers/index';
 
+
 export function checkContentItem(item) {
     if (item.mix) {
         item.mix.forEach((mixItem) => {
